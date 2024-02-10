@@ -1,1 +1,70 @@
-s
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>tic-tac-toe from Serg</title>
+        <link rel="stylesheet" href="./style.css">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap">
+    </head>
+
+    <body>
+        <div class="container1">
+
+            <header>
+                <h1 class="head1">TIC-TAC-TOE from Serg</h1>
+                <buton class="btnair" type="button" onclick="soundonoff()" gata-toggle="collapse" >
+                    <span>SOUND ON</span>
+                </buton>
+            </header>
+
+            <main>
+                <div class = "container2">
+                    <div class = "container3">
+                        <div class='plr1'>Player "X": 0</div>
+                        <div class='plr2'>Player "0": 0</div>
+                    </div>
+                    <div class = "resh3x3">
+                        <div class = "box"></div>
+                        <div class = "box"></div>
+                        <div class = "box"></div>
+                        <div class = "box"></div>
+                        <div class = "box"></div>
+                        <div class = "box"></div>
+                        <div class = "box"></div>
+                        <div class = "box"></div>
+                        <div class = "box"></div>
+
+                    </div>
+                </div>
+
+                <div class = "modalRez">
+                    <div id = "modalRez1"></div> 
+                    <div id = "modalRez2">
+                        <div class = "modalRez3"></div>
+                        <div class = "close1">START NEW GAME</div>
+                    </div>
+                    
+                </div>
+
+            </main>
+        
+            <footer class="foot">
+                <div class="footer-data">
+                    
+                    <p class="footdata1">2022</p>
+                    <p class="footdata1">
+                        <a class="afoot" href="https://github.com/SergOswald" onclick = getClick()>github</a>
+                    </p>
+    
+                    <a class="rs_school" href="https://rs.school/js-stage0/" onclick = getClick()>
+                        <img class="imgfoot" src="./assets/svg/rs_school_js.svg" alt="rs_school">
+                    </a>
+    
+                </div>        
+            </footer>
+
+        </div>
+        <script src="./script.js"></script>
+    </body>
+</html>
