@@ -1,1 +1,52 @@
-d
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Audio player</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap">
+</head>
+
+<body> 
+<div class="container1">
+    <audio class="music" src="./assets/audio/Beyonce - Don't Hurt Yourself.mp3"></audio>
+    <main>
+        <img class="lemon1" src="./assets/img/lemonade.png" >
+        
+        <div class="lemon2">
+                <div class="box"></div>
+                <img class="lemon3" src="./assets/img/lemonade.png" >
+                <img class="play-pause" src="./assets/svg/play.png" onclick="playAudio()" >
+                <img class="next-song" src="./assets/svg/forward.png" onclick="nextSong()" >
+                <img class="previous-song" src="./assets/svg/backward.png" onclick="previousSong()" >
+                <div class="song-artist">Beyonce</div>
+                <div class="song-title">Don't Hurt Yourself</div>
+                <!--<input class="progress-bar" type="range" min="0" max="233.717551" value="0" onchange="changeProgressBar()">-->
+                <input class="progress-bar" type="range" min="0" max="233.717551" value="0" >
+                <div class="currentTime">0:00</div>
+                <div class="durationTime">3:53</div>
+
+        </div>
+    </main>
+
+    <footer class="foot">
+            <div class="footer-data">
+                
+                <p class="footdata1">2022</p>
+                <p class="footdata1">
+                    <a href="https://github.com/SergOswald">github</a>
+                </p>
+
+                <a class="rs_school" href="https://rs.school/js-stage0/">
+                    <img src="./assets/svg/rs_school_js.svg" alt="rs_school">
+                </a>
+
+            </div>
+
+        
+    </footer>
+
+    <script src="./script.js"></script>
+</div>  
+</body>
+</html>
